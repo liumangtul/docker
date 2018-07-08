@@ -70,7 +70,7 @@ centos 镜像名称
 #### 后台运行容器 ###
 docker run --detach --name wang  centos ping baidu.com
 
-创建容器wang这，并在后台运行，执行ping 命令
+创建容器，并在后台运行，执行ping 命令
 
 docker logs --follow 62b4f21b300d #查看container-id的日志
 
