@@ -26,6 +26,8 @@ docker pull image-name
     docker pull centos
 ```
 
+-----------------------------------------------------------------
+
 ### CONTAINER ###
 
 #### run container ####
@@ -75,5 +77,5 @@ docker logs container-name
     docker log greeting
 ```
 
-
+-----------------------------------------------------------------
 
