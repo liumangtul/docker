@@ -26,6 +26,11 @@ docker pull image-name
     docker pull centos
 ```
 
+#### create images ####
+```
+    
+```
+
 -----------------------------------------------------------------
 
 ### CONTAINER ###
@@ -44,6 +49,10 @@ docker run images-name
                 创建交互式的。  附加一个终端         进入的目录
 
     docker run -i -t --name interactiveing centos /bin/bash
+
+    //在后台运行
+    docker run --name greeting --detach centos ping baidu.com
+    docker run --name greeting -d centos ping baidu.com
 ```
 
 #### view container ####
@@ -82,10 +91,12 @@ docker logs container-name
 ```
     //查看容器日志
     docker logs greeting
+    docker logs backdocker --follow
+    //跟随观看日志
 ```
 
 ```
-    docker run 
+    
 ```
 
 -----------------------------------------------------------------
