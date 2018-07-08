@@ -37,13 +37,20 @@ docker run images-name
     docker run centos /bin/echo 'hello'
     docker run --name container-name image-name /bin/echo 'hello'
     docker run centos ls
+
+    //创建可交互的容器
+    docker run --interactive --tty        centos /bin/bash
+    docker run -i            -t     
+                创建交互式的。  附加一个终端         进入的目录
+
+    docker run -i -t --name interactiveing centos /bin/bash
 ```
 
 #### view container ####
 docker ps
 ```
     docker ps -all
-    docker ps -a -last
+    docker ps -a -latest
              -l 最后创建的容器
             -a 显示所有容器，默认是running container
 ```
@@ -74,8 +81,14 @@ docker restart container-name
 docker logs container-name 
 ```
     //查看容器日志
-    docker log greeting
+    docker logs greeting
+```
+
+```
+    docker run 
 ```
 
 -----------------------------------------------------------------
+
+
 
