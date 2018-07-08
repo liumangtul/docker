@@ -15,7 +15,7 @@ ____
 #### search images ####
 docker search image-name | grep keyword
 
-http://hub.docker.com
+[docker hub](http://hub.docker.com "docker hub")
 
 #### pull images ####
 docker pull image-name
